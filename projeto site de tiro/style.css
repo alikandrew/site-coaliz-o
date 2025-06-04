@@ -1,0 +1,122 @@
+body {
+    /* Define o layout como flexbox para facilitar o alinhamento dos elementos */
+    display: flex;
+
+    /* Centraliza o conteúdo horizontalmente no contêiner */
+    justify-content: center;
+
+    /* Centraliza o conteúdo verticalmente no contêiner */
+    align-items: center;
+
+    /* Define a altura do corpo da página */
+    height: 500px;
+
+    /* Define a cor de fundo da página */
+    background-color: #DAD7CD;
+}
+
+#container {
+    /* Define a cor de fundo do contêiner */
+    background-color: #A3B18A;
+
+    /* Define bordas arredondadas no contêiner */
+    border-radius: 10%;
+
+    /* Adiciona espaçamento interno ao contêiner */
+    padding: 15px;
+
+    /* Adiciona uma sombra ao contêiner para criar um efeito de profundidade */
+    box-shadow: 0 0 50px #344E41;
+
+    /* Define a largura do contêiner */
+    width: 250px;
+
+    /* Centraliza o texto dentro do contêiner */
+    text-align: center;
+}
+
+input{
+    
+    /* Adiciona espaçamento interno ao campo de entrada */
+    padding: 10px;
+    
+    /* Define a largura do campo de entrada como 90% do contêiner */
+    width: 90%;
+
+    /* Adiciona margem superior e inferior de 10px e nenhuma margem lateral */
+    margin: 10px 0;
+
+    /* Define uma borda sólida de 1px com a cor especificada */
+    border: solid 1px #344E41; 
+
+    /* Adiciona uma sombra ao campo de entrada para criar um efeito de profundidade */
+    box-shadow: 0 0 5px;
+
+    /* Define bordas arredondadas no campo de entrada */
+    border-radius: 5px;
+
+    }
+
+button{
+
+    /* Define a cor de fundo do botão */
+    background: #DAD7CD;
+
+    /* Define a cor do texto do botão */
+    color: #344E41;
+
+  /* Adiciona espaçamento interno ao campo de entrada */
+  padding: 10px;
+    
+  /* Define a largura do campo de entrada como 90% do contêiner */
+  width: 95%;
+
+  /* Adiciona margem superior e inferior de 10px e nenhuma margem lateral */
+  margin: 10px 0;
+
+  /* Define uma borda sólida de 1px com a cor especificada */
+  border: none;
+
+  /* Adiciona uma sombra ao campo de entrada para criar um efeito de profundidade */
+  box-shadow: 0 0 12px;
+
+  /* Define bordas arredondadas no campo de entrada */
+  border-radius: 5px;
+
+/* Define o cursor como um ponteiro ao passar o mouse sobre o botão */
+cursor: pointer;
+
+}
+
+button:hover{
+
+    /* Altera a cor de fundo do botão ao passar o mouse */
+    background: color #344e41;
+
+    /* Altera a cor do texto do botão ao passar o mouse */
+    color: #A3B18A;
+
+}
+
+a{
+    display:inline-block;
+
+    color: black;
+
+    text-decoration: none;
+
+    margin-top: 10px;
+
+}
+
+a:hover{
+
+    text-decoration: underline;
+
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    font-size: 35px;
+}
